@@ -1,0 +1,225 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "MikeWarePrivate", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://213709970",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Click this!",
+	Callback = function()
+		OrionLib:MakeNotification({
+			Name = "Enjoy! More coming!",
+			Content = "Credit to Ban_Thinking#0001",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+	end    
+})
+
+Tab:AddButton({
+	Name = "Rainbow-Friend HUB!",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    end   
+})
+
+Tab:AddButton({
+	Name = "Inf yeild",
+	Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()		
+	end   
+})
+
+Tab:AddButton({
+	Name = "OwlHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end    
+})
+
+Tab:AddButton({
+	Name = "JailBreak",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://3473939051")[1].Source)()
+	end    
+})
+
+Tab:AddButton({
+	Name = "FNF FRIDAY AUTOPLAY",
+	Callback = function()
+	     loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "DOOR!",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
+		OrionLib:MakeNotification({
+			Name = "Enjoy! More coming!",
+			Content = "I Never Let you Up!",
+			Image = "rbxassetid://4483345998",
+			Time = 4
+		})
+	end    
+})
+
+Tab:AddButton({
+	Name = "ULTRA HUB!",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "ProXima HUB",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "FreeAdminTroll",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ProGaming2/FeadminTroll/main/source"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Like The UI RIGHT?",
+	Callback = function()
+		
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BedwarWorking",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Sape/Vape",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vodxn/sape/main/Initiate.lua"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "EngoWare",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/engoware/main/Main.lua"))()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Sigma V6",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ratedlua/shitmaClient/main/main.lua", true))()
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Fe Troll",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Fe FLING ALL",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Credit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Credit : WsspbedwarsAverage#3530 (Mikeware OWNER)!",
+	Default = "DM if there a bug",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+local Tab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "AutoGrammar!",
+	Callback = function()
+		shared.CustomCorrections = {
+			["examplething12"] = "hello" -- if you say "examplething12" it will become hello
+		}
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/eosuwu/boblox/main/autogremer.lua"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Update LOG!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Update V1",
+	Default = "Added New feature!",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Update V2",
+	Default = "UI CHAGED!",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Update V3",
+	Default = "Added AutoGrammar!",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Update V4",
+	Default = "Added VG HUB",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+OrionLib:MakeNotification({
+	Name = "Go Showcase!",
+	Content = "Enjoy! Super Preimuim!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:Init()
